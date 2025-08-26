@@ -2,8 +2,8 @@
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 import axios from "axios";
 
-const ADMIN_API = "http://localhost:8000/api/v1/records";
-const BULK_API = "http://localhost:8000/api/v1/bulk";
+const ADMIN_API = "https://kenyagazette-1.onrender.com/api/v1/records";
+const BULK_API = "https://kenyagazette-1.onrender.com/api/v1/bulk";
 
 // ==================== THUNKS ====================
 
